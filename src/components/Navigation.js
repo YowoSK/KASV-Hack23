@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navigation() {
+const Navigation = () => {
     return (
-        <div>Navigation</div>
-    )
-}
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/upload">Upload Document</Link>
+                </li>
+                <li>
+                    <Link to="/results">Results</Link>
+                </li>
+            </ul>
+        </nav>
+    );
+};
 
-export default Navigation
+export default Navigation;
