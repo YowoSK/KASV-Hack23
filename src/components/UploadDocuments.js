@@ -1,4 +1,3 @@
-// UploadDocument.js
 import React, { useState } from 'react';
 
 const UploadDocument = () => {
@@ -17,5 +16,4 @@ const UploadDocument = () => {
     </div>
   );
 };
-
 export default UploadDocument;
