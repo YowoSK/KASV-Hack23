@@ -10,7 +10,6 @@ const UploadDocument = () => {
 
   return (
     <div>
-      <App /> {/* This is where your App component will be rendered */}
       <input type="file" onChange={handleFileChange} />
       {selectedFile && <p>Selected file: {selectedFile.name}</p>}
     </div>
